@@ -50,9 +50,9 @@ li {
   grid-area: navbar;
 
   display: flex;
-  align-items: center;
+ 
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   background: linear-gradient(70deg, #2f4f4f, #018b8b);
   color: #fff;
   font-weight: bold;
@@ -188,30 +188,32 @@ h1 {
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .info-encabezado {
-  background: #CDD7E2;
   color: #03989E;  
   font-weight: bold;
-  padding-top: 20px;
-  padding-left: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  background:#dbe2eb;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 0.1em;
+  padding-left: 10px;
   text-decoration: none;
 }   
-.colorbreadcrumb {
-  color: #03989E; 
+
+#colorbreadcrumb_link {
+  color: #2f4f4f;
 }
 
 #colorbreadcrumb {
-  color: #03989E; 
+  color: #03989E;
 }
 
-#colorbreadcrumb:hover {
-  color: #2f4f4f;
+#colorbreadcrumb_link:hover {
+  color: #03989E;
 }
 
 .info-encabezado span {
@@ -279,7 +281,7 @@ button :hover {
 .more-info { 
   grid-area: more-info;
 
-  background-color: #CDD7E2;
+  background-color: #dbe2eb;
   line-height: 30px;
   color: #2f4f4f;
   font-family: Open Sans, sans-serif;
@@ -467,7 +469,7 @@ input[type=checkbox]{
     display:none;
     position: absolute;
     background: linear-gradient(70deg, #2f4f4f, #018b8b);
-    top: 120px;
+    top: 100px;
     right: 0;
     left: 0;
     text-align: center;
