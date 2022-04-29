@@ -344,7 +344,7 @@ input, textarea {
 
 .parrafo-institucional {
 font-style: italic;
-padding-top: 30px;
+padding-top: 5px;
 padding-right: 20px;
 }
 
@@ -505,7 +505,7 @@ input[type=checkbox]{
     margin: 0;
     
   }
-  
+
   .foto-institucional {
     width: 100%;
   }
@@ -518,8 +518,6 @@ input[type=checkbox]{
   margin-left: 0px;
   }
 
- }
-
  .social-bar {
   position: fixed;
   right: 0;
@@ -529,6 +527,7 @@ input[type=checkbox]{
   flex-direction: column;
   align-items: flex-end;
   z-index: 100;
+  }
 }
 
  @media screen and (max-width: 425px) {
@@ -634,7 +633,6 @@ input[type=checkbox]{
 
   .parrafo-institucional {
     padding: 0px;
-    font-size: 14px;   
     margin-left: 0;
     margin-right: 0;
   } 
@@ -654,17 +652,13 @@ input[type=checkbox]{
   }
 }
 
-  @media screen and (max-width: 1024px) {
-  .texto-institucional {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .parrafo-institucional {
-    padding-left: 20px;
-    padding-top: 0px;
-    padding-right: 20px;
-    }
+  @media (max-width: 1024px) {
+    
+    .parrafo-institucional {
+      padding-left: 20px;
+      padding-top: 0px;
+      padding-right: 20px;
+      }
 
   .principal {
     grid-area: principal;
