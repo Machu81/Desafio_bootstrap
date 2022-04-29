@@ -26,6 +26,7 @@ header {
   grid-template-areas: 
   "logo navbar";
   position: fixed;
+  z-index: 999;
   width: 100%;
   top: 0;
   left: 0;
