@@ -12,9 +12,9 @@
   
   display: grid;
   grid-template-areas: 
-  "header header"
-  "main main"
-  "footer footer"
+  "header"
+  "main"
+  "footer"
   ;
 }
 
@@ -189,7 +189,7 @@ h1 {
   font-style: bold;
   font-size: 30px;
   font-weight: bold;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .info-encabezado {
@@ -201,7 +201,7 @@ h1 {
   margin-top: 5px;
   margin-bottom: 30px;
   padding-bottom: 0.1em;
-  padding-left: 10px;
+  padding-left: 20px;
   text-decoration: none;
 }   
 
@@ -227,7 +227,7 @@ li .breadcrumb-item {
 
 .principal {
   grid-area: principal;
-
+  margin-top: 30px;
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -336,14 +336,6 @@ input, textarea {
   border: solid #3d3b3b 0.5px;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration:solid;
-  color: #ffffff; 
-  text-shadow: #080808 2px 2px 2px;
-}
-
 .texto-institucional {
   display: flex;
   flex-direction: row;
@@ -408,6 +400,7 @@ footer {
   justify-content: center; 
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0;
   width: 100%;
 }
 
@@ -538,7 +531,7 @@ input[type=checkbox]{
   z-index: 100;
 }
 
- @media (max-width: 425px) {
+ @media screen and (max-width: 425px) {
 
   .infoBar {
     padding-right: 20px;
@@ -661,7 +654,7 @@ input[type=checkbox]{
   }
 }
 
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
   .texto-institucional {
     display: flex;
     flex-direction: column;
@@ -707,4 +700,5 @@ input[type=checkbox]{
   .texto-institucional {
     width: 600px;
   }
+
 }
